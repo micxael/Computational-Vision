@@ -1,0 +1,14 @@
+python p1_checkerboard.py ../test_input/mountain3.jpg ../test_output/p1_mountain3_checker.jpg 120 4 > ../test_output/p1_mountain3_checker.txt
+python p1_checkerboard.py ../test_input/mountain2.jpg ../test_output/p1_mountain2_checker.jpg 64 6 > ../test_output/p1_mountain2_checker.txt
+
+python p2_block.py ../test_input/lincoln1.jpg 25 18 15 > ../test_output/p2_lincoln.txt
+mv ../test_input/lincoln1_*.jpg ../test_output/
+python p2_block.py ../test_input/ginsburg.jpg 30 24 16 > ../test_output/p2_ginsburg.txt
+mv ../test_input/ginsburg_*.jpg ../test_output/
+
+python p3_shade.py ../test_input/mountain3.jpg ../test_output/mountain3_left.jpg left > ../test_output/p3_mountain3_left.txt
+python p3_shade.py ../test_input/mountain3.jpg ../test_output/mountain3_center.jpg center > ../test_output/p3_mountain3_center.txt
+python p3_shade.py ../test_input/mountain2.jpg ../test_output/mountain2_bottom.jpg bottom > ../test_output/p3_mountain2_bottom.txt
+
+python p4_closest.py ../test_input/four_images 4 > ../test_output/p4_four.txt
+python p4_closest.py ../test_input/flower_data 3 > ../test_output/p4_flower_data.txt

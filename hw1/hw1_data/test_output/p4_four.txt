@@ -1,0 +1,16 @@
+Returning images: ['central_park.jpg', 'hop.jpg', 'skyline.jpg', 'times_square.jpg']
+RGB nearest distances
+First region: 20.278 21.202 22.186
+Last region: 6.737 6.489 6.498
+central_park.jpg to skyline.jpg: 21.68
+hop.jpg to times_square.jpg: 24.06
+skyline.jpg to central_park.jpg: 21.68
+times_square.jpg to hop.jpg: 24.06
+
+L*a*b nearest distances
+First region: 210.697 126.838 121.948
+Last region: 58.916 129.437 128.203
+central_park.jpg to skyline.jpg: 120.50
+hop.jpg to times_square.jpg: 97.05
+skyline.jpg to central_park.jpg: 120.50
+times_square.jpg to hop.jpg: 97.05

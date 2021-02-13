@@ -1,0 +1,9 @@
+Downsized images are (30, 24)
+Block images are (480, 384)
+Average intensity at (7, 6) is 19.45
+Average intensity at (7, 18) is 28.86
+Average intensity at (22, 6) is 10.71
+Average intensity at (22, 18) is 28.91
+Binary threshold: 27.31
+Wrote image ginsburg_g.jpg
+Wrote image ginsburg_b.jpg

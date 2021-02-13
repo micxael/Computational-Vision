@@ -1,0 +1,5 @@
+python p1_checkerboard.py mountain3.jpg p1_mountain3_checker.jpg 120 4 > p1_mountain3_checker.txt
+python p2_block.py lincoln1.jpg 25 18 15 > p2_lincoln.txt
+python p3_shade.py mountain3.jpg mountain3_left.jpg left > p3_mountain3_left.txt
+python p3_shade.py mountain3.jpg mountain3_center.jpg center > p3_mountain3_center.txt
+python p4_closest.py four_images 4 > p4_four.txt

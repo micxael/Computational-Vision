@@ -1,0 +1,3 @@
+Image mountain2.jpg cropped at (134, 0) and (665, 531)
+Resized from (532, 532, 3) to (64, 64, 3)
+The checkerboard with dimensions 768 X 768 was output to p1_mountain2_checker.jpg

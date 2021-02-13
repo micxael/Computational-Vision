@@ -1,0 +1,6 @@
+Two-valued average: 13.2
+Sobel average: 12.3
+Average diff: 1.8
+Max two-valued diff: 77.9
+Max Sobel diff: 43.7
+Pct two-valued greater: 59

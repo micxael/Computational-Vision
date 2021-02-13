@@ -1,0 +1,9 @@
+Downsized images are (25, 18)
+Block images are (375, 270)
+Average intensity at (6, 4) is 59.21
+Average intensity at (6, 13) is 55.46
+Average intensity at (18, 4) is 158.30
+Average intensity at (18, 13) is 35.33
+Binary threshold: 134.68
+Wrote image lincoln1_g.jpg
+Wrote image lincoln1_b.jpg
