@@ -48,7 +48,14 @@ def print_line_info(m, k):
     a = - m / n
     b = 1 / n
     c = - k / n
-    print("line ({},{},{})".format(round(a, 3), round(b, 3), round(c, 3)))
+
+    if c < 0:
+        print("line ({},{},{})".format(round(a, 3), round(b, 3), round(c, 3)))
+    else:
+        a = m / n
+        b = - 1 / n
+        c = k / n
+        print("line ({},{},{})".format(round(a, 3), round(b, 3), round(c, 3)))
 
 
 # MAIN
@@ -110,7 +117,6 @@ if __name__ == '__main__':
         iter += 1
         # at the last iteration of the for loop
         if iter == len(sample):
-            print()
             in_dist_avg = latest_in_dist_sum / k_max
             out_dist_avg = latest_out_dist_sum / (len(points) - k_max)
             print("avg inlier dist", format(round(in_dist_avg, 3), ".3f"))
