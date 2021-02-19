@@ -1,0 +1,13 @@
+python p1_camera.py params_p1_v1.txt points_p1_v1.txt > p1_v1_out.txt
+python p1_camera.py params_p1_v3.txt points_p1_v3.txt > p1_v3_out.txt
+python p1_camera.py params_p1_hidden.txt points_p1_hidden.txt > p1_hidden_out.txt
+
+python p2_ransac.py p2_pts1_in.txt 25 2.5 999 > p2_pts1_out.txt
+python p2_ransac.py p2_pts2_in.txt 30 2.5 456 > p2_pts2_out.txt
+
+python p3_best_focus.py evergreen > p3_evergreen_out.txt
+python p3_best_focus.py office > p3_office_out.txt
+python p3_best_focus.py branches > p3_branches_out.txt
+
+python p4_sharp_focus.py office p4_office_combined.jpg 3.0 2 > p4_office_out.txt
+python p4_sharp_focus.py branches p4_branches_combined.jpg 5.0 2 > p4_branches_out.txt

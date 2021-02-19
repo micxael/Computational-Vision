@@ -1,0 +1,7 @@
+office_0.jpg: 1066.8
+office_1.jpg: 5544.8
+office_2.jpg: 8814.4
+office_3.jpg: 8080.7
+office_4.jpg: 5714.6
+office_5.jpg: 5444.4
+Image office_2.jpg is best focused.

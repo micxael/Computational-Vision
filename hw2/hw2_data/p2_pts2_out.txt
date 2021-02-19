@@ -1,0 +1,17 @@
+Sample 0:
+indices (27,43)
+line (0.521,-0.853,-32.153)
+inliers 18
+
+Sample 2:
+indices (28,79)
+line (0.452,0.892,-2.888)
+inliers 25
+
+Sample 9:
+indices (34,66)
+line (0.394,0.919,-0.024)
+inliers 29
+
+avg inlier dist 1.081
+avg outlier dist 9.609
