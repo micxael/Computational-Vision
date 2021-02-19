@@ -130,7 +130,8 @@ def projection(points, r, t):
 
     print('Projections:')
     for x in range(img_location.shape[1]):
-        str = '{}: {:.1f} {:.1f} {:.1f}'.format(x, points[x][0], points[x][1], points[x][2])
+        str = '{}: {:.1f} {:.1f} {:.1f}'\
+            .format(x, points[x][0], points[x][1], points[x][2])
         print(str, '=> ', end='')
         locate(img_location[:, x])
 
