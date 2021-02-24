@@ -1,0 +1,114 @@
+% \def\grading{\iftrue}
+\def\grading{\iffalse}
+
+\documentclass[11pt]{article}
+\newcommand{\mynew}{}           % for handouts
+\textwidth  6.5in
+\oddsidemargin +0in
+\evensidemargin +0in
+\textheight 9.0in
+\topmargin -0.5in
+
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\median}{\operatornamewithlimits{median}}
+\newcommand{\vect}[1]{{\bf #1}}                 %for bold chars
+\newcommand{\vecg}[1]{\mbox{\boldmath $ #1 $}}  %for bold greek chars
+\newcommand{\matx}[1]{{\bf #1}}
+\newcommand{\matg}[1]{\mbox{\boldmath $ #1 $}}
+\newcommand{\mean}{\vecg{\mu}}
+\newcommand{\covar}{\vecg{\Sigma}}
+\newcommand{\reals}{\mathbb{R}}
+
+\begin{document}
+
+\begin{center}
+\large
+\textbf{CSci 4270 and 6270 \\
+Computational Vision,\\
+Spring Semester, 2021} \\
+\textbf{Lecture 07 Exercise} \\
+\textbf{Due: Sunday, February 21, 2021 at 11:59pm EST}
+\end{center}
+
+
+\subsection*{Preliminary Notes}
+\begin{enumerate}
+\item  I'm giving a little extra time here, partially from the results from
+the survey and partially because of the HW~2 due date.
+\item This one overall did not work out as well as I had hoped when I
+  first came up with it. I hope it is still interesting.
+\item I am upping the number of lecture exercises you can drop to 3.
+\end{enumerate}
+
+\subsection*{Problem}
+
+As discussed in class, the first few steps of edge detection involve
+smoothing, differentiation, and calculation of the magnitude and
+direction. In this exercise, you will implement these --- borrowing
+heavily from the Jupyter Notebook set up for class --- and then
+threshold and visualize the result. In particular, given an input
+image, which has been converted to grayscale, you need to implement
+the following steps:
+\begin{enumerate}
+\item Smooth the image with a Gaussian
+\item Compute the partial derivatives in the x and y directions (call
+these $I_x$ and $I_y$).  Use whatever kernels you'd like.
+\item Compute the gradient magnitude image $I_g$
+\item Normalize $I_x$ and $I_y$ so that together $I_x$ and $I_y$ form
+a unit vector at each pixel.
+\item Encode $I_g$, $I_x$ and $I_y$ into an \emph{L*a*b} image, with $I_g$
+forming $L$, $I_x$ forming $a$ and $I_y$ forming $b$.
+\item Convert the resulting L*a*b image to BGR and save the result.
+\end{enumerate}
+Start from the code provided.
+
+A few small issues require your attention. They are easily handled
+once you are aware of them:
+\begin{itemize}
+\item In step 4 it is possible that $I_x$ and $I_y$ are both 0 at a
+  particular pixel, making $I_g$ 0 as well.  This means that the
+  normalization step could involve dividing by 0. To address this, add
+  a very small value, such as $0.00001$, to the gradient magnitude at
+  each pixel before the division. In computer vision programming you
+  should constantly be alert for issues like this.
+\item In step 5, values of $I_x$ and $I_y$ will be floats in the range
+  $[-1,1]$, but the $a$ and $b$ values must be integers in the range
+  $[0,255]$ (be very careful that they don't go outside this range).
+  Therefore you must scale and shift the values of $I_x$ 
+  and $I_y$ when converting to $a$ and $b$. More specifically, -1
+  should map to 0 and 1 should map to 255
+\item To better visualize the gradients, we sometimes threshold small
+  gradients --- mapping them to 0 --- and scale up larger gradients. We'll
+  do this here, using two parameters $g_0$ and $g_1$ and the following
+  steps. First, modify the gradient image by (a) mapping any gradient
+  smaller than $g_0$ to 0, and (b) mapping any gradient greater than
+  $g_1$ to $g_1$.  Then multiply the resulting image (all pixels) by
+  $255 / g_1$ and round the result.  This should produce the final
+  values that are used as $L$. If you struggle with the details
+  of this step, refer back the Example~5 from Lecture~2.
+\end{itemize}
+
+The overall command line will now look like
+\begin{verbatim}
+python sol.py in_img out_img sigma g0 g1
+\end{verbatim}
+You should need to borrow about 10 lines of code from previous
+problems and write 10-12 new lines using methods you already
+know.
+
+No text output is required for this problem. We will judge your
+results visually --- and they don't have to be perfect.
+
+Finally, you should probably add an explicit step at the end to
+explicitly map any pixel whose gradient is $g_0$ or less to $[0, 0,
+0]$. This is because having an $L$ value of 0 does not force the
+resulting BGR values to 0, and I found some small ghosting in some
+results without this step.
+
+\end{document}
