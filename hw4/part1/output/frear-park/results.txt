@@ -1,0 +1,13 @@
+[image2] and [image1] in process
+
+Keypoints from SIFT in image2 : 863
+Keypoints from SIFT in image1 : 668
+Keypoint matches: 152
+
+Inliers consistent with F: 143 (Ratio: 94% - inliers from F / BF matches)
+Inliers ABOVE threshold: consistent with Fundamental Matrix
+
+Inliers consistent with H: 109 (Ratio: 71.71% - inliers from H / BF matches)
+Inliers ABOVE threshold: consistent with Homography Matrix
+
+-----------------------------------------------------

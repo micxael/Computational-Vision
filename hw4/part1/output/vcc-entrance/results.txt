@@ -1,0 +1,39 @@
+[image2] and [image3] in process
+
+Keypoints from SIFT in image2 : 4455
+Keypoints from SIFT in image3 : 491
+Keypoint matches: 202
+
+Inliers consistent with F: 65 (Ratio: 32% - inliers from F / BF matches)
+Inliers ABOVE threshold: consistent with Fundamental Matrix
+
+Inliers consistent with H: 28 (Ratio: 13.86% - inliers from H / BF matches)
+Inliers BELOW threshold: inconsistent with Homography Matrix
+
+-----------------------------------------------------
+[image2] and [image1] in process
+
+Keypoints from SIFT in image2 : 4455
+Keypoints from SIFT in image1 : 2336
+Keypoint matches: 1057
+
+Inliers consistent with F: 806 (Ratio: 76% - inliers from F / BF matches)
+Inliers ABOVE threshold: consistent with Fundamental Matrix
+
+Inliers consistent with H: 392 (Ratio: 37.09% - inliers from H / BF matches)
+Inliers ABOVE threshold: consistent with Homography Matrix
+
+-----------------------------------------------------
+[image3] and [image1] in process
+
+Keypoints from SIFT in image3 : 491
+Keypoints from SIFT in image1 : 2336
+Keypoint matches: 58
+
+Inliers consistent with F: 27 (Ratio: 47% - inliers from F / BF matches)
+Inliers ABOVE threshold: consistent with Fundamental Matrix
+
+Inliers consistent with H: 15 (Ratio: 25.86% - inliers from H / BF matches)
+Inliers BELOW threshold: inconsistent with Homography Matrix
+
+-----------------------------------------------------
