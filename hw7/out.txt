@@ -1,0 +1,293 @@
+Image index 1 in progress...
+	Number of keypoints obtained: 29
+	Number of keypoints in motion 28
+	Number of keypoints after thresholding 27
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 5
+
+	FOE Estimate Using Ransac Best Inliers: (654.86554, 203.78754)
+
+
+
+Image index 2 in progress...
+	Number of keypoints obtained: 82
+	Number of keypoints in motion 78
+	Number of keypoints after thresholding 58
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 15
+
+	FOE Estimate Using Ransac Best Inliers: (589.02405, 167.76614)
+
+
+
+Image index 3 in progress...
+	Number of keypoints obtained: 33
+	Number of keypoints in motion 33
+	Number of keypoints after thresholding 7
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 3
+
+	FOE Estimate Using Ransac Best Inliers: (551.3046, 185.51175)
+	No camera motion detected because of not enough inliers (3 found)
+
+
+
+Image index 4 in progress...
+	Number of keypoints obtained: 29
+	Number of keypoints in motion 29
+	Number of keypoints after thresholding 24
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 6
+
+	FOE Estimate Using Ransac Best Inliers: (477.79205, 192.85033)
+
+
+
+Image index 5 in progress...
+	Number of keypoints obtained: 7
+	Number of keypoints in motion 7
+	Number of keypoints after thresholding 3
+
+	Finding inliers using RANSAC...
+	
+	
+	
+Image index 6 in progress...
+	Number of keypoints obtained: 36
+	Number of keypoints in motion 32
+	Number of keypoints after thresholding 31
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 9
+
+	FOE Estimate Using Ransac Best Inliers: (599.4137, 203.59637)
+
+
+
+Image index 7 in progress...
+	Number of keypoints obtained: 7
+	Number of keypoints in motion 7
+	Number of keypoints after thresholding 3
+
+	Finding inliers using RANSAC...
+	
+	
+	
+Image index 8 in progress...
+	Number of keypoints obtained: 27
+	Number of keypoints in motion 27
+	Number of keypoints after thresholding 20
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 12
+
+	FOE Estimate Using Ransac Best Inliers: (599.17535, 174.74329)
+
+
+
+Image index 9 in progress...
+	Number of keypoints obtained: 33
+	Number of keypoints in motion 29
+	Number of keypoints after thresholding 29
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 6
+
+	FOE Estimate Using Ransac Best Inliers: (575.0636, 219.68863)
+
+
+
+Image index 10 in progress...
+	Number of keypoints obtained: 17
+	Number of keypoints in motion 17
+	Number of keypoints after thresholding 17
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 4
+
+	FOE Estimate Using Ransac Best Inliers: (1086.3997, 102.79152)
+	No camera motion detected because of not enough inliers (4 found)
+
+
+
+Image index 11 in progress...
+	Number of keypoints obtained: 66
+	Number of keypoints in motion 66
+	Number of keypoints after thresholding 63
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 7
+
+	FOE Estimate Using Ransac Best Inliers: (492.32532, 62.855667)
+
+
+
+Image index 12 in progress...
+	Number of keypoints obtained: 66
+	Number of keypoints in motion 65
+	Number of keypoints after thresholding 62
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 7
+
+	FOE Estimate Using Ransac Best Inliers: (557.4906, 31.099464)
+
+
+
+Image index 13 in progress...
+	Number of keypoints obtained: 66
+	Number of keypoints in motion 66
+	Number of keypoints after thresholding 34
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 7
+
+	FOE Estimate Using Ransac Best Inliers: (616.95374, 236.87338)
+
+
+
+Image index 14 in progress...
+	Number of keypoints obtained: 75
+	Number of keypoints in motion 75
+	Number of keypoints after thresholding 0
+
+	Finding inliers using RANSAC...
+	
+	
+	
+Image index 15 in progress...
+	Number of keypoints obtained: 70
+	Number of keypoints in motion 70
+	Number of keypoints after thresholding 1
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 0
+
+	FOE Estimate Using Ransac Best Inliers: (0, 0)
+	
+	
+	
+Image index 16 in progress...
+	Number of keypoints obtained: 18
+	Number of keypoints in motion 18
+	Number of keypoints after thresholding 11
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 4
+
+	FOE Estimate Using Ransac Best Inliers: (600.0248, 88.72885)
+	No camera motion detected because of not enough inliers (4 found)
+
+
+
+Image index 17 in progress...
+	Number of keypoints obtained: 34
+	Number of keypoints in motion 34
+	Number of keypoints after thresholding 23
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 10
+
+	FOE Estimate Using Ransac Best Inliers: (703.5844, 126.322945)
+
+
+
+Image index 18 in progress...
+	Number of keypoints obtained: 45
+	Number of keypoints in motion 45
+	Number of keypoints after thresholding 41
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 16
+
+	FOE Estimate Using Ransac Best Inliers: (569.6814, 167.6677)
+
+
+
+Image index 19 in progress...
+	Number of keypoints obtained: 12
+	Number of keypoints in motion 12
+	Number of keypoints after thresholding 3
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 2
+
+	FOE Estimate Using Ransac Best Inliers: (483.28668, 247.41162)
+	No camera motion detected because of not enough inliers (2 found)
+	
+	
+	
+Image index 20 in progress...
+	Number of keypoints obtained: 31
+	Number of keypoints in motion 31
+	Number of keypoints after thresholding 30
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 7
+
+	FOE Estimate Using Ransac Best Inliers: (621.5351, 173.3607)
+
+
+
+Image index 21 in progress...
+	Number of keypoints obtained: 40
+	Number of keypoints in motion 40
+	Number of keypoints after thresholding 32
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 7
+
+	FOE Estimate Using Ransac Best Inliers: (648.62134, 154.32779)
+
+
+
+Image index 22 in progress...
+	Number of keypoints obtained: 20
+	Number of keypoints in motion 20
+	Number of keypoints after thresholding 6
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 3
+
+	FOE Estimate Using Ransac Best Inliers: (678.70996, 176.9349)
+	No camera motion detected because of not enough inliers (3 found)
+
+
+
+Image index 23 in progress...
+	Number of keypoints obtained: 11
+	Number of keypoints in motion 11
+	Number of keypoints after thresholding 2
+
+	Finding inliers using RANSAC...
+	
+	
+	
+Image index 24 in progress...
+	Number of keypoints obtained: 87
+	Number of keypoints in motion 86
+	Number of keypoints after thresholding 57
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 9
+
+	FOE Estimate Using Ransac Best Inliers: (623.57007, 170.9738)
+
+
+
+Image index 25 in progress...
+	Number of keypoints obtained: 95
+	Number of keypoints in motion 85
+	Number of keypoints after thresholding 63
+
+	Finding inliers using RANSAC...
+	   Max number of inliers: 8
+
+	FOE Estimate Using Ransac Best Inliers: (608.59576, 168.23187)
+
+
+
