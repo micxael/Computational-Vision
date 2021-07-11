@@ -1,2 +1,2 @@
 # Computational-Vision
-Spring 2021
+RPI Spring 2021 with Dr. Chuck Stewart
