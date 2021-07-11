@@ -1,0 +1,9 @@
+DETECTIONS: count = 5
+DETECTIONS: first activation 0.94
+DETECTIONS: last activation 0.55
+AP: num correct 4
+AP: first correct activation 0.90
+AP: num incorrect 1
+AP: first incorrect activation 0.94
+AP: num ground truth missed 1
+AP: final AP value 0.543
