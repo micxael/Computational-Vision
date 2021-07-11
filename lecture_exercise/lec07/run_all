@@ -1,0 +1,2 @@
+python sol.py disk.png disk_out.png 2 20 60
+python sol.py grevys.jpg grevys_out.jpg 1 5 50

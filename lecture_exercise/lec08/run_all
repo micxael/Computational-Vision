@@ -1,0 +1,2 @@
+python sol.py pts1.txt 50 99 > out1.txt
+python sol.py pts1.txt 60 80 > out2.txt
